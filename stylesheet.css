@@ -199,9 +199,8 @@
 
 @media only screen and (max-width : 500px) and (min-width : 361px){
     .logo {
-        background-image: url(iith_building.jpeg);
-        background-repeat: round;
-        background-size: 400px 400px;
+        background-image: none;
+        background-color: black;
         height: 100%;
         margin-top: 20rem;
         width: 100%;
@@ -251,7 +250,7 @@
 
     .img{
         margin: 50px;
-        margin-left: 30px;
+        margin-left: 55px;
         padding: 30px;
         padding-left: 49px;
         border-radius: 10px;
@@ -315,9 +314,8 @@
         text-decoration: none;
     }
     .logo {
-        background-image: url(iith_building.jpeg);
-        background-repeat: round;
-        background-size: 400px 400px;
+        background-image: none;
+        background-color: black;
         height: 100%;
         margin-top: 20rem;
         width: 100%;
@@ -340,9 +338,8 @@
         text-decoration: none;
     }
     .logo {
-        background-image: url(iith_building.jpeg);
-        background-repeat: round;
-        background-size: 400px 400px;
+        background-image: none;
+        background-color: black;
         height: 100%;
         margin-top: 20rem;
         width: 100%;
@@ -389,6 +386,17 @@
     .fa {
         text-decoration: none;
     }
+    .logo {
+        background-image: url(iith_building.jpeg);
+        background-repeat: no-repeat;
+        background-size: 1100px 1000px;
+        height: 100%;
+        margin-top: 20rem;
+        width: 100%;
+        border: 2px rgb(0, 0, 0) none;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
 }
 
 /* responsive : for screen width between 540px and 800px */
@@ -412,7 +420,7 @@
             margin: 50px;
             margin-left: 95px;
             padding: 30px;
-            padding-left: 75px;
+            padding-left: 185px;
             border-radius: 10px;
         }
         
