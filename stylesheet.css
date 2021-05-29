@@ -72,7 +72,7 @@
 .logo {
     background-image: url(iith_building.jpeg);
     background-repeat: no-repeat;
-    background-size: 1265px 650px;
+    background-size: 100% 100%;
     height: 100%;
     margin-top: 20rem;
     width: 100%;
@@ -81,14 +81,14 @@
     flex-wrap: wrap;
 }
 
-/* .black{
+.black{
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.5);
     border: 2px rgb(0, 0, 0) none;
     display: inline-flex;
     flex-wrap: wrap;
-} */
+}
 
 .img {
     margin: 50px;
@@ -99,7 +99,7 @@
 }
 
 .img:hover {
-    box-shadow: inset 0 0 4px 4px rgb(197, 197, 197);
+    transform: scale(0.74);
     cursor: pointer;
 }
 
